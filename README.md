@@ -17,9 +17,11 @@ The data was pared down to necessary columns and split into train and test sets 
 
 ## Model Recommendation
 
+Our best iteration so far was a Random Forest with a class_weight balance to deal with our class imbalance issue, as well as 300 n-estimators and a max_depth of 10. It is very possible that with more iterations and tweaking, our model would perform even better. Sadly, due to time, life and computer constraints, this was the best model we could present in the time given.
 
 ## Conlusion and Next Steps
 
+In conclusion, while the model itself may have been somewhat lackluster, the overall theory has been proven - it is possible to feed a random forest model customer data and predict whether or not a customer will churn. It is not possible to overstate the benefits of such a model, as it would allow companies to effectively churn back time on their customer expiration. A company using this model could effectively earmark customers that the model thinks will churn "soon" and take steps to prevent that behavior, such as reaching out to make a special offer or simply to check in with a customer that might be lost soon. Furthermore, it is possible to tease out the feature importance from this model and determine which "features" are most impactful as relates to "churn", thereby making edits to their business strategy in regard to those features.
 
 ## Repo Structure
 ```
